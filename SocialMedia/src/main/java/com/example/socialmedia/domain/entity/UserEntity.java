@@ -8,6 +8,7 @@ public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String username;
     private String email;
     private String firstName;
     private String lastName;
@@ -20,6 +21,15 @@ public class UserEntity {
 
     public UserEntity setId(Long id) {
         this.id = id;
+        return this;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public UserEntity setUsername(String username) {
+        this.username = username;
         return this;
     }
 
