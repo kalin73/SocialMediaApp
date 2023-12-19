@@ -27,10 +27,126 @@
 <main>
     <div class="container">
         <div class="left">
-
+            <a class="profile">
+                <div class="profile-picture">
+                    <img src="../static/images/profile-1.jpg"/>
+                </div>
+                <div class="handle">
+                    <h4>Dilyana Ivanova</h4>
+                    <p class="textMuted">
+                        @didi08
+                    </p>
+                </div>
+            </a>
+            <div class="sideBar">
+                <a class="menuItem active">
+                    <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <h3>Home</h3>
+                </a>
+                <a class="menuItem">
+                    <span><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+                    <h3>Videos</h3>
+                </a>
+                <a class="menuItem">
+                    <span><i class="fa fa-users" aria-hidden="true"></i></span>
+                    <h3>Friends</h3>
+                </a>
+                <a class="menuItem" id="messageNotifications">
+                    <span><i class="fa fa-comments" aria-hidden="true"><small
+                            class="notificationsCount">1</small></i></span>
+                    <h3>Messages</h3>
+                </a>
+                <a class="menuItem">
+                    <span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+                    <h3>Shop</h3>
+                </a>
+                <a class="menuItem" id="notifications">
+                    <span><i class="fa fa-bell" aria-hidden="true"><small
+                            class="notificationsCount">3</small></i></span>
+                    <h3>Notification</h3>
+                    <div class="notificationPopup">
+                        <div>
+                            <div class="profile-picture">
+                                <img src="../static/images/profile-2.jpg"/>
+                            </div>
+                            <div class="notificationBody">
+                                <b>Lidiya Georgieva</b>Public pictures.
+                                <small class="textMuted">5 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="../static/images/profile-5.jpg"/>
+                            </div>
+                            <div class="notificationBody">
+                                <b>Tatyana Metodieva</b>Send you an invitation for friendship.
+                                <small class="textMuted">5 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="../static/images/profile-3.jpg"/>
+                            </div>
+                            <div class="notificationBody">
+                                <b>Mariana Iwavona</b>You mentioned in a comment.
+                                <small class="textMuted">2 DAYS AGO</small>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="menuItem">
+                    <span><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    <h3>Settings</h3>
+                </a>
+            </div>
+            <label for="create-post" class="btn btnPrimary">Create POST</label>
         </div>
         <div class="center">
-
+            <div class="stories">
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="../static/images/profile-1.jpg"/>
+                    </div>
+                    <p class="name">Your Story</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="../static/images/profile-2.jpg"/>
+                    </div>
+                    <p class="name">Lidiya Georgieva</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="../static/images/profile-5.jpg"/>
+                    </div>
+                    <p class="name">Tatyana Metodieva</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="../static/images/profile-3.jpg"/>
+                    </div>
+                    <p class="name">Mariana Iwavona</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="../static/images/profile-8.jpg"/>
+                    </div>
+                    <p class="name">Tomas Petkanov</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="../static/images/profile-11.jpg"/>
+                    </div>
+                    <p class="name">Kalin Merakliqta</p>
+                </div>
+            </div>
+            <form class="createPost">
+                <div class="profile-picture">
+                    <img src="../static/images/profile-1.jpg"/>
+                </div>
+                <input type="text" placeholder="What's on your mind, Dilyana" id="create-post"/>
+                <input type="submit" value="POST" class="btn btnPrimary"/>
+            </form>
         </div>
         <div class="right">
 
