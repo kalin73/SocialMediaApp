@@ -11,7 +11,7 @@ public class UserEntity {
     private String email;
     private String firstName;
     private String lastName;
-    private String picture;
+    private String profilePicture;
     private String password;
 
     public Long getId() {
@@ -50,12 +50,12 @@ public class UserEntity {
         return this;
     }
 
-    public String getPicture() {
-        return picture;
+    public String getProfilePicture() {
+        return profilePicture;
     }
 
-    public UserEntity setPicture(String picture) {
-        this.picture = picture;
+    public UserEntity setProfilePicture(String profilePicture) {
+        this.profilePicture = profilePicture;
         return this;
     }
 
