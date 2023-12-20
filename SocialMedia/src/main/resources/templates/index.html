@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Gumzograma</title>
+    <title>StraKal - Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="../static/css/style.css"/>
 </head>
 <body>
 <nav>
     <div class="container">
-        <h2 class="logo">Gumzograma</h2>
+        <h2 class="logo">StraKal</h2>
         <div class="searchBar">
             <i class="fa fa-search" aria-hidden="true"></i>
             <input type="search" placeholder="Search post, video and friends"/>
@@ -26,6 +26,7 @@
 </nav>
 <main>
     <div class="container">
+        <!---------- LEFT -------->
         <div class="left">
             <a class="profile">
                 <div class="profile-picture">
@@ -95,12 +96,17 @@
                     </div>
                 </a>
                 <a class="menuItem">
+                    <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
+                    <h3>Themes</h3>
+                </a>
+                <a class="menuItem">
                     <span><i class="fa fa-cog" aria-hidden="true"></i></span>
                     <h3>Settings</h3>
                 </a>
             </div>
             <label for="create-post" class="btn btnPrimary">Create POST</label>
         </div>
+        <!---------- CENTER -------->
         <div class="center">
             <div class="stories">
                 <div class="story">
@@ -147,9 +153,141 @@
                 <input type="text" placeholder="What's on your mind, Dilyana" id="create-post"/>
                 <input type="submit" value="POST" class="btn btnPrimary"/>
             </form>
-        </div>
-        <div class="right">
+            <div class="feeds">
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture">
+                                <img src="../static/images/profile-19.jpg"/>
+                            </div>
+                            <div class="info">
+                                <h3>Malkata Petranka</h3>
+                                <small>Sofia Bulgaria, 2 HOUR AGO.</small>
+                            </div>
+                        </div>
+                        <span class="edit"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="photo">
+                        <img src="../static/images/feed-6.jpg"/>
+                    </div>
+                    <div class="actionButton">
+                        <div class="interactionButton">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-share" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="bookMark">
+                            <span><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="likedBy">
+                        <span><img src="../static/images/profile-14.jpg"></span>
+                        <span><img src="../static/images/profile-11.jpg"></span>
+                        <span><img src="../static/images/profile-8.jpg"></span>
+                        <p>Liked By <b>Ekaterina Dimitrova</b> and <b>84 others</b></p>
+                    </div>
+                    <div class="caption">
+                        <p><b>Malkata Petranka</b> programming is cool!!! <span
+                                class="hashTag"><b>#SoftUni #w3schools</b></span></p>
+                    </div>
+                    <div class="comments textMuted">View all 10 comments</div>
+                </div>
 
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture">
+                                <img src="../static/images/profile-2.jpg"/>
+                            </div>
+                            <div class="info">
+                                <h3>Lidiya Georgieva</h3>
+                                <small>Moscow Russia, 10 HOUR AGO.</small>
+                            </div>
+                        </div>
+                        <span class="edit"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="photo">
+                        <img src="../static/images/feed-7.jpg"/>
+                    </div>
+                    <div class="actionButton">
+                        <div class="interactionButton">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-share" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="bookMark">
+                            <span><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="likedBy">
+                        <span><img src="../static/images/profile-1.jpg"></span>
+                        <span><img src="../static/images/profile-10.jpg"></span>
+                        <span><img src="../static/images/profile-18.jpg"></span>
+                        <p>Liked By <b>Dilyana Ivanova</b> and <b>264 others</b></p>
+                    </div>
+                    <div class="caption">
+                        <p><b>Lidiya Georgieva</b> work and rest in one. SUPER! <span
+                                class="hashTag"><b>#Moscow #Russia #Work and Rest</b></span></p>
+                    </div>
+                    <div class="comments textMuted">View all 43 comments</div>
+                </div>
+
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture">
+                                <img src="../static/images/profile-8.jpg"/>
+                            </div>
+                            <div class="info">
+                                <h3>Tomas Petkanov</h3>
+                                <small>New York, 1 DAYS AGO.</small>
+                            </div>
+                        </div>
+                        <span class="edit"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="photo">
+                        <img src="../static/images/feed-5.jpg"/>
+                    </div>
+                    <div class="actionButton">
+                        <div class="interactionButton">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-share" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="bookMark">
+                            <span><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="likedBy">
+                        <span><img src="../static/images/profile-4.jpg"></span>
+                        <span><img src="../static/images/profile-6.jpg"></span>
+                        <span><img src="../static/images/profile-7.jpg"></span>
+                        <p>Liked By <b>Ivanna Ivanova</b> and <b>1, 344 others</b></p>
+                    </div>
+                    <div class="caption">
+                        <p><b>Tomas Petkanov</b> some photos during the trip to New York. <span
+                                class="hashTag"><b>#NewYork #USA</b></span></p>
+                    </div>
+                    <div class="comments textMuted">View all 343 comments</div>
+                </div>
+            </div>
+        </div>
+        <!---------- RIGHT -------->
+        <div class="right">
+            <div class="messages">
+                <div class="heading">
+                    <h4>Messages</h4><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                </div>
+                <div class="searchBar">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="search" placeholder="Search messages" id="messageSearch"/>
+                </div>
+                <div class="category">
+                    <h6 class="active">Primary</h6>
+                    <h6>General</h6>
+                    <h6 class="classRequests">Requests(3)</h6>
+                </div>
+            </div>
         </div>
     </div>
 </main>
