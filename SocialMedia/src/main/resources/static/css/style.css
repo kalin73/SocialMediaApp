@@ -382,18 +382,39 @@ main .container .left .profile {
     margin-left: 0.5rem;
 }
 
-.center .feed .caption{
+.center .feed .caption {
     padding: 1rem;
 }
 
-.center .feed .caption p{
+.center .feed .caption p {
     font-size: 1rem;
 }
 
-.center .feed .caption p .hashTag{
+.center .feed .caption p .hashTag {
     color: rgba(103, 101, 102, 0.43);
 }
 
-.center .feed .comments{
+.center .feed .comments {
     color: rgba(103, 101, 102, 0.43);
+}
+
+/* ==========> CENTER <========== */
+
+main .container .right {
+    height: max-content;
+    position: sticky;
+    top: -18rem;
+    bottom: 0;
+}
+
+.right .message {
+    background: #FFF;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.right .message .heading {
+    display: flex;
+    align-items: center;
+
 }
