@@ -314,7 +314,7 @@ main .container .left .profile {
     justify-content: space-between;
     margin-top: 1rem;
     background: #FFF;
-    padding: 0.4rem 0.6rem 2rem;
+    padding: 0.4rem 0.6rem 0.5rem;
     border-radius: 2rem;
 }
 
@@ -325,4 +325,75 @@ main .container .left .profile {
     background: transparent;
     color: #000;
     margin-right: 1rem;
+}
+
+.center .feeds .feed {
+    background: #FFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.center .feed .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .feed .user {
+    display: flex;
+    gap: 1rem;
+}
+
+.center .feed .photo {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
+
+.center .feed .actionButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+}
+
+.center .likedBy {
+    display: flex;
+}
+
+.center .likedBy span {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #FFF;
+    margin-left: -0.6rem;
+}
+
+.center .likedBy span:first-child {
+    margin: 0;
+}
+
+.center .likedBy p {
+    margin-left: 0.5rem;
+}
+
+.center .feed .caption{
+    padding: 1rem;
+}
+
+.center .feed .caption p{
+    font-size: 1rem;
+}
+
+.center .feed .caption p .hashTag{
+    color: rgba(103, 101, 102, 0.43);
+}
+
+.center .feed .comments{
+    color: rgba(103, 101, 102, 0.43);
 }
