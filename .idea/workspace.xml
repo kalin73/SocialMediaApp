@@ -32,9 +32,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Kalin/Documents/Eclipse/git/SocialMediaApp/SocialMedia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -56,6 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1703003574514</updated>
       <workItem from="1703003575794" duration="133000" />
+      <workItem from="1703054651734" duration="209000" />
+      <workItem from="1703057172147" duration="122000" />
+      <workItem from="1703062155466" duration="3589000" />
     </task>
     <servers />
   </component>
