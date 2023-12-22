@@ -11,7 +11,7 @@ public class SecurityConfiguration {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.authorizeHttpRequests(request -> request.requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
-                        .requestMatchers("/", "/auth/login", "/auth/register").permitAll())
+                        .requestMatchers("/", "/auth/login", "/auth/register", "/auth/login-error").permitAll())
                 .formLogin(login -> login.loginPage("/auth/login")
                         .defaultSuccessUrl("/", true)
                         .failureForwardUrl("/auth/login-error")
