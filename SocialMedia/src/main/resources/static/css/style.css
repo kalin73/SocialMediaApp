@@ -398,7 +398,7 @@ main .container .left .profile {
     color: rgba(103, 101, 102, 0.43);
 }
 
-/* ==========> CENTER <========== */
+/* ==========> RIGHT <========== */
 
 main .container .right {
     height: max-content;
@@ -412,4 +412,19 @@ main .container .right {
     border-radius: 1rem;
     padding: 1rem;
 }
+.right .message .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
 
+.right .message i{
+    font-size: 1.4rem;
+}
+
+.right .message .searchBar{
+    display: flex;
+    background: #FF0000;
+    margin-bottom: 1rem;
+}
