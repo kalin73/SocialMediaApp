@@ -78,12 +78,13 @@ nav .container {
     justify-content: space-between;
 }
 
-nav .searchBar {
+.searchBar {
+    background: #DCDCDC;
     border-radius: 2rem;
     padding: 0.6rem 1rem;
 }
 
-nav .searchBar input[type='search'] {
+.searchBar input[type='search'] {
     background: transparent;
     width: 30vw;
     margin-left: 1rem;
@@ -400,31 +401,86 @@ main .container .left .profile {
 
 /* ==========> RIGHT <========== */
 
-main .container .right {
+.main .container .right {
     height: max-content;
     position: sticky;
     top: -18rem;
     bottom: 0;
 }
 
-.right .message {
+.right .messages {
     background: #FFF;
     border-radius: 1rem;
     padding: 1rem;
 }
-.right .message .heading{
+
+.right .messages .heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
-.right .message i{
+.right .messages i {
     font-size: 1.4rem;
 }
 
-.right .message .searchBar{
+.right .messages .searchBar {
     display: flex;
-    background: #FF0000;
     margin-bottom: 1rem;
+}
+
+.right .messages .category {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.right .messages .category h6 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid #F8F8FF;
+    padding-bottom: 0.5rem;
+    font-size: 0 . .85rem;
+}
+
+.right .messages .category .active {
+    border-color: #000;
+}
+
+.right .messages .message-re
+
+.right .messages .message {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.right .message .profile-picture {
+    position: relative;
+    overflow: visible;
+}
+
+.right .profile-picture img {
+    border-radius: 50%;
+}
+
+.right .messages .message:last-child {
+    margin: 0;
+}
+
+.right .messages .message p {
+    font-size: 0.8rem;
+}
+
+.right .messages .message .profile-picture .active {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    background: #7CFC00;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
