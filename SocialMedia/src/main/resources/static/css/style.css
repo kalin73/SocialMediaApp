@@ -441,14 +441,12 @@ main .container .left .profile {
     text-align: center;
     border-bottom: 4px solid #F8F8FF;
     padding-bottom: 0.5rem;
-    font-size: 0 . .85rem;
+    font-size: 0.85rem;
 }
 
 .right .messages .category .active {
     border-color: #000;
 }
-
-.right .messages .message-re
 
 .right .messages .message {
     display: flex;
@@ -483,4 +481,129 @@ main .container .left .profile {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.right .friendRequests {
+    margin-top: 1rem;
+}
+
+.right .friendRequests h4 {
+    color: #DCDCDC;
+    margin: 1rem 0;
+}
+
+.right .request {
+    background: #FFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.right .request .info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right .request .action {
+    display: flex;
+    gap: 1rem;
+}
+
+/* ==========> THEME <========== */
+
+.customizeTheme {
+    background: rgba(205, 206, 208, 0.25);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.customizeTheme .card {
+    background: #FFF;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.customizeTheme .font-size {
+    margin-top: 5rem;
+}
+
+.customizeTheme .font-size > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(205, 206, 208, 0.25);
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+}
+
+.customizeTheme .choose-size {
+    background: #87CEFA;
+    height: 0.3rem;
+    width: 100%;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customizeTheme .choose-size span {
+    width: 1rem;
+    height: 1rem;
+    background: #87CEFA;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.customizeTheme .choose-size span.active {
+    background: rgba(6, 76, 120, 1);
+}
+
+.customizeTheme .color {
+    margin-top: 2rem;
+}
+
+.customizeTheme .chooseColor {
+    background: rgba(205, 206, 208, 0.25);
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customizeTheme .chooseColor span {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+}
+
+.customizeTheme .chooseColor span:nth-child(1) {
+    background: rgba(87, 10, 128, 1);
+}
+
+.customizeTheme .chooseColor span:nth-child(2) {
+    background: rgba(255, 194, 0, 1);
+}
+
+.customizeTheme .chooseColor span:nth-child(3) {
+    background: rgba(255, 0, 19, 1);
+}
+
+.customizeTheme .chooseColor span:nth-child(4) {
+    background: rgba(35, 255, 0, 1);
+}
+
+.customizeTheme .chooseColor span:nth-child(5) {
+    background: rgba(0, 61, 255, 1);
 }
