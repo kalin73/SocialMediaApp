@@ -114,6 +114,8 @@ main .container {
     position: relative;
 }
 
+/* ==========> LEFT <========== */
+
 main .container .left {
     height: max-content;
     position: sticky;
@@ -129,8 +131,6 @@ main .container .left .profile {
     column-gap: 1rem;
     width: 100%;
 }
-
-/* ==========> LEFT <========== */
 
 .left .sideBar {
     margin-top: 1rem;
@@ -524,7 +524,6 @@ main .container .left .profile {
     display: grid;
     place-items: center;
     font-size: 0.9rem;
-    display: none;
 }
 
 .customizeTheme .card {
@@ -606,4 +605,57 @@ main .container .left .profile {
 
 .customizeTheme .chooseColor span:nth-child(5) {
     background: rgba(0, 61, 255, 1);
+}
+
+.customizeTheme .chooseColor span.active {
+    border: 8px solid #FFF;
+}
+
+.customizeTheme .background {
+    margin-top: 2rem;
+}
+
+.customizeTheme .chooseBG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.customizeTheme .chooseBG > div {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.customizeTheme .chooseBG > div.active {
+    border: 2px solid #0000FF;
+}
+
+.customizeTheme .chooseBG .bg1 {
+    background: #FFF;
+    color: #000;
+}
+
+.customizeTheme .chooseBG .bg2 {
+    background: #483D8B;
+    color: #FFF;
+}
+
+.customizeTheme .chooseBG .bg3 {
+    background: #000;
+    color: #FFF;
+}
+
+.customizeTheme .chooseBG > div span {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #A9A9A9;
+    border-radius: 50%;
+    margin-right: 1rem;
 }
