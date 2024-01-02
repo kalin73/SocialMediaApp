@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
+
 *,
 *::before,
 *::after {
@@ -180,7 +185,7 @@ main .container .left .profile {
 
 .left .sideBar .active i,
 .left .sideBar .active h3 {
-    color: hsl(252, 75%, 60%);
+    color: #0000FF;
 }
 
 .left .sideBar .active::before {
@@ -189,7 +194,7 @@ main .container .left .profile {
     width: 0.5rem;
     height: 100%;
     position: absolute;
-    background: hsl(252, 75%, 60%);
+    background: #0000FF;
 }
 
 .left .sideBar .menuItem:first-child.active {
@@ -524,6 +529,7 @@ main .container .left .profile {
     display: grid;
     place-items: center;
     font-size: 0.9rem;
+    display: none;
 }
 
 .customizeTheme .card {
@@ -531,6 +537,7 @@ main .container .left .profile {
     padding: 3rem;
     border-radius: 1rem;
     width: 50%;
+    box-shadow: 0 0 1rem #0000FF;
 }
 
 .customizeTheme .font-size {
@@ -658,4 +665,81 @@ main .container .left .profile {
     border: 2px solid #A9A9A9;
     border-radius: 50%;
     margin-right: 1rem;
+}
+
+.customizeTheme .card {
+    width: 80vw;
+}
+
+/* ==========> MEDIA QUERIES FOR SMALL LAPTOPS <========== */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 96%;
+    }
+
+    main .container {
+        grid-template-columns: 5rem auto 30vw;
+        gap: 1rem;
+    }
+
+    .left {
+        width: 5rem;
+        z-index: 5;
+    }
+
+    main .container .left .profile {
+        display: none;
+    }
+
+    .sideBar h3 {
+        display: none;
+    }
+
+    .left .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav .searchBar {
+        display: none;
+    }
+
+    main .container {
+        grid-template-columns: 0 auto 5rem;
+        gap: 0;
+    }
+
+    main .container .left {
+        grid-column: 3/4;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .left .notificationPopup {
+        position: absolute;
+        left: -20rem;
+        width: 20rem;
+    }
+
+    .left .notificationPopup::before {
+        /*display: absolute;*/
+        top: 1.3rem;
+        left: calc(20rem - 0.6rem);
+        display: block;
+    }
+
+    main .container .center {
+        grid-column: 1/3;
+    }
+
+    main .container .right {
+        display: none;
+    }
+
+    .customizeTheme .card {
+        width: 92vw;
+    }
 }
