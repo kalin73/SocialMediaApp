@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be6d62a3-4510-44d3-9e91-bfc7d24ddb0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SocialMedia/src/main/resources/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialMedia/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialMedia/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/src/main/resources/templates/index.html" afterDir="false" />
@@ -13,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +51,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="z-inde" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,7 +79,7 @@
       <workItem from="1703089686421" duration="44000" />
       <workItem from="1703402069060" duration="580000" />
       <workItem from="1703834510536" duration="9802000" />
-      <workItem from="1704201735860" duration="4308000" />
+      <workItem from="1704201735860" duration="18699000" />
     </task>
     <servers />
   </component>
